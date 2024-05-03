@@ -52,7 +52,7 @@ a:hover {
 /* header */
 header {
   background-image: url("./images/mission-background.jpg");
-  background-position: center;
+
   position: relative;
   top: 69px;
   height: 700px;
@@ -91,4 +91,30 @@ header {
 
 .tea-types figure img {
   padding-bottom: 10px;
+}
+
+.locations {
+  position: relative;
+  top: 69px;
+  height: 500px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url("./images/locations-background.jpg");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.location-flex {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.location {
+  margin: 0 20px;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
 }
