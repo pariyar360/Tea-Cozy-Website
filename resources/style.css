@@ -118,3 +118,8 @@ header {
   opacity: 1;
   width: 300px;
 }
+
+footer {
+  position: relative;
+  top: 69px;
+}
